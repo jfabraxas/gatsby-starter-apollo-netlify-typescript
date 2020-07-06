@@ -1,0 +1,10 @@
+[build]
+command = "yarn build" 
+functions = "functions/dist" #  netlify-lambda reads this
+publish = "public" 
+
+[dev]
+framework = "#custom"
+command = "yarn start"
+port = 8888
+targetPort = 8000
