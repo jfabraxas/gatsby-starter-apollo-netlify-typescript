@@ -5,6 +5,14 @@
 - [Gatsby Starter Apollo Netlify](https://github.com/piducancore/gatsby-starter-apollo-netlify)
 - [apollo-graphql-typescript](https://github.com/pushkar8723/apollo-graphql-typescript)
 
+## todo
+
+- graphql-codegen integration [graphql-codegen](https://graphql-code-generator.com/docs/integrations/gatsby)
+  ´´´ "resolutions": {
+  "gatsby/graphql": "14.6.0"
+  },´´´
+- publish (https://www.gatsbyjs.org/contributing/submit-to-starter-library/)
+
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="48" />

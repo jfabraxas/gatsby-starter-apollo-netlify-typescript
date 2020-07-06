@@ -1,0 +1,13 @@
+generates:
+  ./types/functions-schema.ts:
+    schema: 'functions/src/schema.graphql'
+    plugins:
+      - typescript
+  ./types/gatsby-schema.ts:
+    schema: http://localhost:8000/___graphql
+    documents:
+      - ./src/**/*.{ts,tsx}
+      - ./node_modules/gatsby*/!(node_modules)/**/*.js
+    plugins:
+      - typescript
+      - typescript-operations

@@ -1,10 +1,8 @@
-// const { createProxyMiddleware } = require("http-proxy-middleware")
-
 module.exports = {
   siteMetadata: {
     title: `Gatsby Starter Apollo Netlify Typescript`,
     description: `This is an easy way to start developing fullstack GraphQL apps with Gatsby and Apollo Server (powered by Netlify functions).`,
-    author: `@jfabraxas`,
+    author: `@jfabraxas`
   },
   plugins: [
     `gatsby-plugin-theme-ui`,
@@ -19,11 +17,11 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
-      },
-    },
+        icon: `src/images/gatsby-icon.png` // This path is relative to the root of the site.
+      }
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
-  ],
+  ]
 }
