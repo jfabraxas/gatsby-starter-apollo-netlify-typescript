@@ -12,6 +12,7 @@
   "gatsby/graphql": "14.6.0"
   },´´´
 - publish (https://www.gatsbyjs.org/contributing/submit-to-starter-library/)
+- apollo extension
 
 <p align="center">
   <a href="https://www.gatsbyjs.org">
