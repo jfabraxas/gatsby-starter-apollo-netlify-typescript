@@ -14,7 +14,7 @@
     "@graphql-tools/schema": "^6.0.12",
     "@theme-ui/presets": "^0.3.0",
     "apollo-server-lambda": "^2.15.1",
-    "gatsby": "^2.23.21",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-manifest": "^2.4.17",
     "gatsby-plugin-netlify-functions": "^0.0.3",
     "gatsby-plugin-offline": "^3.2.16",
